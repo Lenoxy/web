@@ -1,0 +1,45 @@
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verticalFlexbox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmediaIcon{
+  width: 100px;
+  height: 100px;
+}
+
+.socialFlexbox{
+  flex-wrap: nowrap;
+}
+
+html{
+  background-image: url("assets/background.gif");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border: 20px white solid;
+  margin: 20px;
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#title{
+  color: white;
+  font-family: monospace;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
