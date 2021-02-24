@@ -5,7 +5,7 @@ body{
   align-items: center;
 }
 
-.verticalFlexbox{
+.vertical-flexbox{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -13,12 +13,12 @@ body{
   align-items: center;
 }
 
-.socialmediaIcon{
+.socialmedia-icon{
   width: 100px;
   height: 100px;
 }
 
-.socialFlexbox{
+.socialmedia-flexbox{
   flex-wrap: nowrap;
 }
 
@@ -35,6 +35,7 @@ html{
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 #title{
