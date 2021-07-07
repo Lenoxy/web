@@ -1,46 +1,53 @@
-body{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.vertical-flexbox {
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.vertical-flexbox{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+.social-media-icon {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
 }
 
-.socialmedia-icon{
-  width: 100px;
-  height: 100px;
+.socialmedia-flexbox {
+    flex-wrap: nowrap;
 }
 
-.socialmedia-flexbox{
-  flex-wrap: nowrap;
-}
-
-html{
-  background-image: url("assets/background.gif");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  border: 20px white solid;
-  margin: 20px;
+html {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
 
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
 }
 
-#title{
-  color: white;
-  font-family: monospace;
-  font-size: 50px;
-  margin-bottom: 30px;
+#title {
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+
+i {
+    width: 100px;
+}
+
+#particles-js {
+    background-color: #640064;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
 }
