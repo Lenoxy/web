@@ -16,4 +16,4 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             key: ${{ secrets.SSH_PRIVATE_KEY }}
-            script: cd /home/lenoxyne/www/lenoxy.net && ./deployment.sh
+            script: cd /home/lenoxyne/www/lenoxy.net && chmod +x deployment.sh && ./deployment.sh
