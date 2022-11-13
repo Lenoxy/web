@@ -1,7 +1,7 @@
 const particlesJSON = {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 130,
             "density": {
                 "enable": true,
                 "value_area": 800
@@ -18,20 +18,15 @@ const particlesJSON = {
             },
             "polygon": {
                 "nb_sides": 5
-            },
-            "image": {
-                "src": "img/github.svg",
-                "width": 100,
-                "height": 100
             }
         },
         "opacity": {
-            "value": 0.5,
+            "value": 0.8,
             "random": false,
             "anim": {
-                "enable": false,
-                "speed": 1,
-                "opacity_min": 0.1,
+                "enable": true,
+                "speed": 0.2,
+                "opacity_min": 0.6,
                 "sync": false
             }
         },
@@ -47,14 +42,14 @@ const particlesJSON = {
         },
         "line_linked": {
             "enable": true,
-            "distance": 112.2388442605866,
+            "distance": 250,
             "color": "#ffffff",
             "opacity": 0.4,
             "width": 0.9620472365193136
         },
         "move": {
             "enable": true,
-            "speed": 1.5,
+            "speed": 0.3,
             "direction": "none",
             "random": true,
             "straight": false,
@@ -76,7 +71,7 @@ const particlesJSON = {
             },
             "onclick": {
                 "enable": true,
-                "mode": "push"
+                "mode": "repulse"
             },
             "resize": true
         },
@@ -95,8 +90,8 @@ const particlesJSON = {
                 "speed": 3
             },
             "repulse": {
-                "distance": 200,
-                "duration": 0.4
+                "distance": 75,
+                "duration": 0.1
             },
             "push": {
                 "particles_nb": 4

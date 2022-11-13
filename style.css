@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "Terminus";
+    src: local("Terminus (TTF) for Windows"), local("Terminus (TTF)"),
+    url(./font/terminusttf-4.47.0.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .vertical-flexbox {
     padding: 50px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -14,34 +22,29 @@
     padding: 20px;
 }
 
-.socialmedia-flexbox {
-    flex-wrap: nowrap;
+.social-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-html {
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-
-}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: black;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 #title {
     color: white;
-    font-family: monospace;
     font-size: 50px;
     margin-bottom: 30px;
-}
-
-
-i {
-    width: 100px;
 }
 
 #particles-js {
@@ -50,4 +53,8 @@ i {
     width: 100%;
     height: 100%;
     z-index: -10;
+}
+
+a{
+    text-decoration: none;
 }
